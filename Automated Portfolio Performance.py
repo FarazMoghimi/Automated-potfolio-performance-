@@ -11,8 +11,10 @@ today = date(2020,11,16)
 
 # reading the holdings positions and cash for the periods
 i=0
-df_position= pd.read_csv(r'C:\Users\faraz\Desktop\Asset Management TA\Holding all days\Finalholdingtable.csv')
-df_cash= pd.read_csv(r'C:\Users\faraz\Desktop\Asset Management TA\Holding all days\Finalcashholdingtable.csv')
+
+#in the next two lines I am reading my local portfolio holding information. you can add your personal path there or an any api to read similar information
+df_position= pd.read_csv(r'***ADD YOUR HOLDINGS DATA HERE')
+df_cash= pd.read_csv(r'ADD YOUR CASH HOLDINGS HERE ')
 
 
 #removing the US bit from ticker segment
